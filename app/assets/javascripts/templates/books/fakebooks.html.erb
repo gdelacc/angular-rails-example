@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-sm-12">
+    <header class="page-header">
+      <h2>Fake GET</h2>
+    </header>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="remove-col"></th>
+          <th class="isbn-col">ID</th>
+          <th class="isbn-col">userID</th>
+          <th class="author-col">title</th>
+          <th class="title-col">boby</th>
+          <th class="action-col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr book-row book="book" removebook="removeBook(book)" ng-repeat="book in books"></tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            <div class="pull-right">
+              <!-- <a ng-href="/new" class="btn btn-primary">New Book</a> -->
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+
+
