@@ -13,7 +13,7 @@ gem 'angular-rails-templates'
 gem 'jbuilder', '~> 2.0'
 gem 'responders', '~> 2.0'
 
-gem 'rails-html-sanitizer', '~> 1.0'
+gem 'rails-html-sanitizer', '~> 1.4', '>= 1.4.3'
 
 group :development, :test do
   gem 'byebug'
